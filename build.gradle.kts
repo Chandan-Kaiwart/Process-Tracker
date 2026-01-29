@@ -36,10 +36,7 @@ compose.desktop {
             packageName = "ProgressTracker"
             packageVersion = "1.0.0"
 
-            macOS {
-                iconFile.set(project.file("src/main/resources/icon.icns"))
-                bundleID = "com.progresstracker.app"
-            }
+
         }
     }
 }
